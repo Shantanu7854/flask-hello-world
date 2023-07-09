@@ -6,5 +6,7 @@ def hello_world():
     return 'Hello, World!'
     
 @app.route('/jkl')
-def hello_world():
+def hello_world_jkl():
     return 'Hello, World, jkl!'
+
+
