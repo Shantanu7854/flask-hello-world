@@ -9,4 +9,10 @@ def hello_world():
 def hello_world_jkl():
     return 'Hello, World, jkl!'
 
+@app.route('/api', methods=['POST'])
+def buffet () :
+    try:
+        return '<h1>Data Added successfully!!!</h1>'
+    except:
+        return '<h1>invalid credentials!</h1>'
 
